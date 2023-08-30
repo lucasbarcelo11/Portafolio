@@ -3,6 +3,15 @@ import { TypeAnimation } from "react-type-animation";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Main = () => {
+
+  const linkedin = () => {
+    window.open('https://www.linkedin.com/in/lucas-barcelo11/', '_blank');
+  }
+
+  const github = () => {
+    window.open('https://github.com/lucasbarcelo11', '_blank');
+  }
+
   return (
     <div id="main">
       <img
@@ -36,8 +45,8 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[100px] w-full">
-            <FaLinkedin className="cursor-pointer" size={20} />
-            <FaGithub className="cursor-pointer" size={20} />
+            <FaLinkedin className="cursor-pointer" size={20} onClick={linkedin} target="_blank" />
+            <FaGithub className="cursor-pointer" size={20} onClick={github} />
           </div>
         </div>
       </div>
