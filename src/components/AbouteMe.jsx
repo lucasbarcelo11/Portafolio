@@ -5,7 +5,7 @@ const data = [
   {
     title: "Sobre mi",
     details:
-      "Soy un joven de 20 años, ciudadano natural de Uruguay, que nació y vive en la ciudad de San José. Con muchas ganas de  dar soluciones en temas laborales para seguir creciendo y aprendiendo."
+      "Soy un joven de 20 años, ciudadano de Uruguay, que nació y vive en la ciudad de San José. Con muchas ganas de  dar soluciones en temas laborales para seguir creciendo y aprendiendo."
   },
   {
     title:'Estudio',
