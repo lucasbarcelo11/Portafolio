@@ -5,8 +5,8 @@ import ProjectsItems from './ProjectsItems'
 const Projects = () => {
   return (
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-      <h1 className='text-4xl font-bold text-center text-[#001b5e]'>Proyectos</h1>
-      <p className='text-center py-8'>Proyectos realizados con JavaScript, html5, css3, React y sus librerias, Boostrap & Tailwind</p>
+      <h1 className='text-4xl font-bold text-center text-[#001b5e] dark:text-gray-200'>Proyectos</h1>
+      <p className='text-center py-8 dark:text-gray-200'>Proyectos realizados con JavaScript, html5, css3, React y sus librerias, Boostrap & Tailwind</p>
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectsItems img={'/ecommerce.png'} title='e-commerce con React' href={'https://ecommercelucasbarcelo.netlify.app/'} linkGit={'https://github.com/lucasbarcelo11/e-commerce'}/>
         <ProjectsItems img={'/Clima.png'} title='App Clima' href={'https://weather-projectoacademlo.netlify.app/'} linkGit={'https://github.com/lucasbarcelo11/weather-project'}/>

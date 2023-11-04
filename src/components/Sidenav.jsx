@@ -3,13 +3,19 @@ import React from 'react'
 import {AiOutlineMenu, AiOutlineHome, AiOutlineProject, AiOutlineMail} from 'react-icons/ai'
 import {BsPerson} from 'react-icons/bs'
 import {GrProjects} from 'react-icons/gr'
+import {BsFillSunFill} from "react-icons/bs"
 
-const Sidenav = () => {
+const Sidenav = ({setTheme}) => {
 
   const [nav, setNav] = useState(false)
   const handleNav = () => {
     setNav(!nav)
   }
+
+  const handleChangeTheme = () => {
+    setTheme(prevTheme => prevTheme === "light" ? "dark" : "light")
+  }
+
   return (
     <div>
       <AiOutlineMenu onClick={handleNav} className='absolute top-4 right-4 z-[99] md:hidden'/>
@@ -53,6 +59,9 @@ const Sidenav = () => {
           <a href="#contact" className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <AiOutlineMail size={20}/>
           </a>
+          <div href="" onClick={handleChangeTheme} className='rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <BsFillSunFill className="cursor-pointer  w-5 h-5"/>
+          </div>
         </div>
       </div>
     </div>
