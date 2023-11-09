@@ -5,6 +5,7 @@ import Contact from './components/Contact'
 import Main from './components/Main'
 import Projects from './components/Projects'
 import Sidenav from './components/Sidenav'
+import ProjectsBackend from './components/ProjectsBackend'
 import { useEffect, useState } from 'react'
 
 
@@ -26,6 +27,7 @@ function App() {
       <Main setTheme={setTheme}/>
       <AbouteMe/>
       <Projects/>
+      <ProjectsBackend/>
       <Contact/>
     </>
   )

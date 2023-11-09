@@ -33,16 +33,22 @@ const Main = () => {
               sequence={[
                 "Desarrollador web",
                 1000,
-                "FrontEnd",
+                "Full-Stack",
                 1000,
                 "JavaScript",
-                2000,
+                1000,
                 "React",
-                2000,
-                "HTML, Css",
-                2000,
+                1000,
+                "HTML 5, Css3",
+                1000,
                 "Boostrap & Tailwind ",
-                2000,
+                1000,
+                "Node js ",
+                1000,
+                "Express ",
+                1000,
+                "PostgreSQL",
+                1000
               ]}
               wrapper="div"
               cursor={true}
