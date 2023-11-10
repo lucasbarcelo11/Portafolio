@@ -25,7 +25,7 @@ const AbouteMe = () => {
         }
         <ol className="flex-col md:flex-row relative mb-10 ml-4">
           <h3 className='inline-block px-2 py-1 font-semibold text-white bg-red-600 rounded-md text-xl'>Skills </h3>
-          <p className='my-2 text-base font-normal text-stone-600 dark:text-gray-200'>Conocimientos en JavaScript dando soluciones a problemas dados. Gran manejo de Nextjs, React y sus librerias, Trabajos realizados cosumiendos APIs, amplios conocimientos de HTML, Css3, boostrap & Tailwind, tambien desde el Backend con NodeJs, Express, PostgreSql. Buen desempeño trabajando en equipo.</p>
+          <p className='my-2 text-base font-normal text-stone-600 dark:text-gray-200'>Conocimientos en JavaScript dando soluciones a problemas dados. Gran manejo de Nextjs, React y sus librerias, Trabajos realizados consumiendo APIs, amplios conocimientos de HTML 5, Css3, boostrap & Tailwind, tambien desde el Backend con NodeJs, Express, PostgreSql. Buen desempeño trabajando en equipo.</p>
         </ol>
     </div>
   )
