@@ -9,21 +9,21 @@ const data = [
   },
   {
     title:'Estudios',
-    details: 'Cursos de Desarrollo Web realizados en Udemy & Bootcamp Full Stack brindado por Academlo en el cual aprendi todo lo necesario para mis primeros proyectos frontend como backend. Luego participé en proyecto emulacion en NoCountry por 5 semanas.'
+    details: 'Cursos de Desarrollo Web realizados en Udemy & Bootcamp Full Stack brindado por Academlo en el cual aprendi todo lo necesario para mis primeros proyectos frontend como backend. Luego participé en proyecto simulacion en NoCountry por 5 semanas en equipo con personas de diferentes paises y horarios.'
   }
 ];
 
 const AbouteMe = () => {
   return( 
     <div id="aboutme" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-        <h1 className="text-4xl font-bold text-center text-[#001b5e] dark:text-gray-200">Sobre mi</h1>
+        <h2 className="text-4xl font-bold text-center text-[#001b5e] dark:text-gray-200">Sobre mi</h2>
         {
             data.map((item, idx) => (
                 <AbouteMeInfo key={idx} title={item.title} details={item.details}/>
                 
             ))
         }
-        <ol className="flex-col md:flex-row relative mb-10 ml-4">
+        <ol className="flex-col md:flex-row relative mb-10 ml-4 ">
           <h3 className='inline-block px-2 py-1 font-semibold text-white bg-red-600 rounded-md text-xl'>Skills </h3>
           <p className='my-2 text-base font-normal text-stone-600 dark:text-gray-200'>Conocimientos en JavaScript dando soluciones a problemas dados. Gran manejo de Nextjs, React y sus librerias, Trabajos realizados consumiendo APIs, amplios conocimientos de HTML 5, Css3, boostrap & Tailwind, tambien desde el Backend con NodeJs, Express, PostgreSql. Buen desempeño trabajando en equipo.</p>
         </ol>

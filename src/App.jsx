@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Sidenav from './components/Sidenav'
 import ProjectsBackend from './components/ProjectsBackend'
 import { useEffect, useState } from 'react'
+import Experience from './components/Experience'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Sidenav setTheme={setTheme}/>
       <Main setTheme={setTheme}/>
       <AbouteMe/>
+      <Experience/>
       <Projects/>
       <ProjectsBackend/>
       <Contact/>
