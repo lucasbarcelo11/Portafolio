@@ -9,7 +9,7 @@ const Projects = () => {
       <p className='text-center py-8 dark:text-gray-200'>Proyectos realizados con JavaScript, html 5, css3, React, Next.js, Boostrap & Tailwind</p>
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectsItems img={'/myfinanz.png'} title='My Finanz con Next.js' href={'https://mifinanz.vercel.app/'} linkGit={'https://github.com/No-Country/c14-17-ft-node-react'}/>
-        <ProjectsItems img={'/ecommerce.png'} title='e-commerce con React' href={'https://ecommercelucasbarcelo.netlify.app/'} linkGit={'https://github.com/lucasbarcelo11/e-commerce'}/>
+        <ProjectsItems img={'/ecommercecss.png'} title='e-commerce con React' href={'https://e-commercelucasbarcelo.netlify.app/'} linkGit={'https://github.com/lucasbarcelo11/e-commerce-css3'}/>
         <ProjectsItems img={'/Clima.png'} title='App Clima' href={'https://weather-projectoacademlo.netlify.app/'} linkGit={'https://github.com/lucasbarcelo11/weather-project'}/>
         <ProjectsItems img={'/e-commerceAcademlo.png'} title='e-commerce JavaScript' href={'https://carrito-g27-lucasygustavo.netlify.app/'} linkGit={'https://github.com/lucasbarcelo11/carg27'}/>
         <ProjectsItems img={'/pokedex.png'} title='Pokedex' href={'https://lucaspokemonacademlo.netlify.app/'} linkGit={'https://github.com/lucasbarcelo11/Pokemon'}/>

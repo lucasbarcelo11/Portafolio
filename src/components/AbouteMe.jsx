@@ -5,11 +5,11 @@ const data = [
   {
     title: "Sobre mi",
     details:
-      "Soy un ciudadano Uruguayo, que nació y vive en la ciudad de San José. Con muchas ganas de  dar soluciones en temas laborales para seguir creciendo y aprendiendo como ser mejor profesional y persona."
+      "Soy un ciudadano Uruguayo, nacido y residente en la ciudad de San José, con un firme compromiso de aportar soluciones efectivas en el ámbito laboral, impulsado por el deseo de crecimiento continuo y el afán de superación tanto profesional como personal."
   },
   {
     title:'Estudios',
-    details: 'Cursos de Desarrollo Web realizados en Udemy & Bootcamp Full Stack brindado por Academlo en el cual aprendi todo lo necesario para mis primeros proyectos frontend como backend. Luego participé en proyecto simulacion en NoCountry por 5 semanas en equipo con personas de diferentes paises y horarios.'
+    details: 'He completado cursos de Desarrollo Web en Udemy y un Bootcamp Full Stack ofrecido por Academlo, donde adquirí las habilidades necesarias para llevar a cabo mis primeros proyectos tanto en el frontend como en el backend. Posteriormente, tuve la oportunidad de participar en un proyecto de simulación en NoCountry durante 5 semanas, colaborando en equipo con profesionales de diversos países y horarios.'
   }
 ];
 
@@ -25,7 +25,13 @@ const AbouteMe = () => {
         }
         <ol className="flex-col md:flex-row relative mb-10 ml-4 ">
           <h3 className='inline-block px-2 py-1 font-semibold text-white bg-red-600 rounded-md text-xl'>Skills </h3>
-          <p className='my-2 text-base font-normal text-stone-600 dark:text-gray-200'>Conocimientos en JavaScript dando soluciones a problemas dados. Gran manejo de Nextjs, React y sus librerias, Trabajos realizados consumiendo APIs, amplios conocimientos de HTML 5, Css3, boostrap & Tailwind, tambien desde el Backend con NodeJs, Express, PostgreSql. Buen desempeño trabajando en equipo.</p>
+          <p className='my-2 text-base font-normal text-stone-600 dark:text-gray-200'>Poseo experiencia sólida en JavaScript, ofreciendo soluciones efectivas a diversos problemas. Cuento con un amplio dominio de Next.js, React y sus respectivas bibliotecas, así como experiencia en proyectos que implican consumo de APIs. Además, tengo conocimientos profundos en HTML5, CSS3, Bootstrap y Tailwind. En el ámbito del backend, tengo experiencia con Node.js, Express y PostgreSQL. Me destaco por mi habilidad para trabajar de manera efectiva en equipos colaborativos.
+
+
+
+
+
+</p>
         </ol>
     </div>
   )
