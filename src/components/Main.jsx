@@ -13,7 +13,7 @@ const Main = () => {
     window.open('https://github.com/lucasbarcelo11', '_blank');
   }
 
-  const download = ('/LucasBarceloCV.pdf')
+  const download = ('/CVLUCASBARCELO.pdf')
 
 
   
