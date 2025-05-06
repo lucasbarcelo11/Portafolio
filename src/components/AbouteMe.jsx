@@ -1,11 +1,11 @@
-import React from "react";
+
 import AbouteMeInfo from "./AbouteMeInfo";
 
 const data = [
   {
     title: "Sobre mi",
     details:
-      "Soy un ciudadano Uruguayo, nacido y residente en la ciudad de San José, con un firme compromiso de aportar soluciones efectivas en el ámbito laboral, impulsado por el deseo de crecimiento continuo y el afán de superación tanto profesional como personal."
+      "Más de 2 años de experiencia en desarrollo de software. He creado sitios web para empresas y proyectos personales, asegurando soluciones funcionales y atractivas. Como profesor, he formado a personas que buscan ingresar al mundo de la programación, facilitando su aprendizaje con metodologías prácticas y aplicadas."
   },
   {
     title:'Estudios',
